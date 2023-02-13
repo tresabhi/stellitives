@@ -358,5 +358,38 @@ export const Button = styled('button', {
       css: { border: theme.borderStyles.nonInteractive_positive },
     },
     //#endregion
+
+    //#region outlines
+    {
+      color: 'regular',
+      disabled: false,
+
+      css: { '&:focus': { outline: theme.borderStyles.interactiveHover } },
+    },
+    {
+      color: 'accent',
+      disabled: false,
+
+      css: {
+        '&:focus': { outline: theme.borderStyles.interactiveHover_accent },
+      },
+    },
+    {
+      color: 'danger',
+      disabled: false,
+
+      css: {
+        '&:focus': { outline: theme.borderStyles.interactiveHover_danger },
+      },
+    },
+    {
+      color: 'positive',
+      disabled: false,
+
+      css: {
+        '&:focus': { outline: theme.borderStyles.interactiveHover_positive },
+      },
+    },
+    //#endregion
   ],
 });
