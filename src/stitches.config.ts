@@ -1,6 +1,12 @@
 import { blueDark, greenDark, mauveDark, redDark } from '@radix-ui/colors';
 import { createStitches } from '@stitches/react';
-import { createBordersStyles, createColors } from 'bepaint';
+import {
+  createBorderStyles,
+  createColors,
+  createFontSizes,
+  createRadii,
+  createSpaces,
+} from 'bepaint';
 
 export const {
   config,
@@ -23,10 +29,14 @@ export const {
     },
 
     borderStyles: {
-      ...createBordersStyles(mauveDark),
-      ...createBordersStyles(blueDark, 'accent'),
-      ...createBordersStyles(redDark, 'danger'),
-      ...createBordersStyles(greenDark, 'positive'),
+      ...createBorderStyles(mauveDark),
+      ...createBorderStyles(blueDark, undefined, 'accent'),
+      ...createBorderStyles(redDark, undefined, 'danger'),
+      ...createBorderStyles(greenDark, undefined, 'positive'),
     },
+
+    space: createSpaces(),
+    radii: createRadii(),
+    fontSizes: createFontSizes(),
   },
 });

@@ -3627,10 +3627,10 @@ base@^0.11.1:
     mixin-deep "^1.2.0"
     pascalcase "^0.1.1"
 
-bepaint@^0.1.0-beta.1:
-  version "0.1.0-beta.1"
-  resolved "https://registry.yarnpkg.com/bepaint/-/bepaint-0.1.0-beta.1.tgz#7c54be8010f28b019a7b0efe9c0723f1969c1870"
-  integrity sha512-FXjZIc6W96qZu6G18EkwFlDhSa2fWH4O2dS2bVi3GMD1EVEJnj5RrLXm5dzpwIZ1aw/u4kMpOS3U13wdVdQmYw==
+bepaint@^0.1.0-beta.3:
+  version "0.1.0-beta.3"
+  resolved "https://registry.yarnpkg.com/bepaint/-/bepaint-0.1.0-beta.3.tgz#fe8f0d20e35da075a6ed69f42d61156d985da584"
+  integrity sha512-rybuEo674bEal5QUm/qO9jok3TptyRH2bdHDheFO25fw+HCBic5Oiy+ZWnOFnROCGZQy2Zcw7po4KrKSxz02Pg==
 
 better-opn@^2.1.1:
   version "2.1.1"
