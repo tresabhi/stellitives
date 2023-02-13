@@ -7,6 +7,15 @@ export const Button = styled('button', {
   borderRadius: theme.radii.regular,
   // TODO: add button font size
   fontSize: theme.fontSizes.input,
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  gap: theme.space.gapRelatedRegular,
+
+  '& svg': {
+    width: theme.sizes.inTextIcon,
+    height: theme.sizes.inTextIcon,
+  },
 
   variants: {
     type: {

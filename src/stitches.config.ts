@@ -5,6 +5,7 @@ import {
   createColors,
   createFontSizes,
   createRadii,
+  createSizes,
   createSpaces,
 } from 'bepaint';
 
@@ -38,5 +39,6 @@ export const {
     space: createSpaces(),
     radii: createRadii(),
     fontSizes: createFontSizes(),
+    sizes: createSizes(),
   },
 });

@@ -1,3 +1,1 @@
-export default function NICE() {
-  return <div>lmao</div>
-}
+export * from './components/Button';
